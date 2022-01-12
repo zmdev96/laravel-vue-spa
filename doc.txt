@@ -1,0 +1,4 @@
+1- generate new app key
+2- delete app config cache
+3- cache the new app config
+4- setup mailtrap connection

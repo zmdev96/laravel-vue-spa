@@ -1,0 +1,183 @@
+/* Login Page */
+.login {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+.login .container-login{
+  width: 100%;
+  min-width: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+.login .wrap-login {
+  width: 500px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+.login .login-form{
+  width: 100%;
+  position: relative;
+}
+.login .logo-name{
+  margin: 30px 0 15px;
+  color: rgba(15,183,221,1);
+
+}
+.login .login-form-title{
+  font-family: JosefinSans-Bold;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(15, 183, 221, 1);
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+}
+.login input {
+  font-family: Ubuntu-Bold;
+  font-size: 16px;
+  color: #2d3b82;
+  line-height: 1.2;
+  position: relative;
+  display: block;
+  width: 70%;
+  height: 45px;
+  background: #f5f5f5;
+  border-radius: 25px;
+  padding: 0 35px 0 35px;
+  border-color: #fff;
+  margin: 25px auto;
+  text-align: center;
+  font-weight: 700;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.login input[type="submit"]{
+  background: rgba(15, 183, 221, 1);
+  color: #fff;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-bottom: 25px;
+}
+
+.login input:focus{
+  border-color: #94ef94;
+  outline: 0px;
+}
+.login input:hover{
+  border-color: #94ef94;
+  outline: 0px;
+}
+/* Errors Style*/
+.has-error input{
+  border-color: #dc3545 !important;
+}
+.has-error label{
+  color: #dc3545 !important;
+}
+.help-block strong{
+  color: #dc3545 !important;
+  font-size: 0.9rem;
+}
+/* Card Style*/
+.card .card-header{
+  padding: .5rem 1.25rem !important;
+}
+.card .card-header h6{
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.card .card-header .card-action{
+  display: inline-block;
+}
+
+
+/* Others */
+label {
+  display: inline-block;
+  margin-bottom: .2rem;
+}
+
+.form-content .privileges-list{
+  margin-left: 0px;
+}
+
+.form-content .privileges-list .singel-privi{
+  display: block;
+}
+.form-content .privileges-list .singel-privi label{
+  cursor: pointer;
+}
+.status-message-ajax{
+  display: none;
+}
+
+/* Custom Classes */
+.success{
+  color: #155724;
+}
+.danger{
+  color: #721c24;
+}
+
+/* Blogs edit */
+.card .image-content img{
+  display: block;
+  margin-bottom: 7px;
+
+
+}
+.card .image-content input,
+.card .image-content .image_name{
+  display: none;
+
+}
+.card .image-content span.icon{
+    margin-top: 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+}
+/* Show Content */
+.card .show-content div {
+  margin-bottom: 5px;
+}
+.card .show-content label {
+  color: #555;
+  font-weight: 500;
+}
+
+/* Ads Style */
+.ads-price{
+  display: none;
+}
+.ads-price.has-error{
+  display: block;
+}
