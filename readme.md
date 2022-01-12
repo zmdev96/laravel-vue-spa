@@ -12,6 +12,9 @@ cd laravel-vue-spa
 ```sh
 composer install
 ```
+- rename .env.xample to .env
+- change Mailtrap information
+
 ```sh
 npm install && npm run dev
 ```
